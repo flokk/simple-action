@@ -1,0 +1,48 @@
+/**
+ * Simple styling for an action
+ *
+ * Semantically speaking this class represents an action that a user
+ * may take. This is commonly a button or a link.
+ *
+ * This class, by it self, will not offer any colors. Other classes are
+ * expected to define the colors.
+ *
+ * An action class has four states:
+ *
+ *   * default
+ *   * hover/focus
+ *   * active
+ *   * disabled
+ */
+
+.action {
+  background: none; 
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  line-height: normal;
+  margin-bottom: 0;
+  padding: 4px 12px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  transition: background-color 50ms linear;
+  vertical-align: middle;
+}
+
+.action:hover,
+.action:focus {
+
+}
+
+.action.active,
+.action:active {
+
+}
+
+.action.disabled,
+.action[disabled] {
+  cursor: default;
+  opacity: .65;
+}

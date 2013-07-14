@@ -1,0 +1,22 @@
+{
+  "name": "simple-action",
+  "version": "0.1.0",
+  "description": "Minimal action styling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flokk/simple-action.git"
+  },
+  "author": "Cameron Bytheway <cameron@theflokk.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flokk/simple-action/issues"
+  },
+  "dependencies": {
+    "rework-vars": "~1.0.0",
+    "styl": "~0.2.2"
+  }
+}

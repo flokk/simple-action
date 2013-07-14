@@ -1,0 +1,15 @@
+{
+  "name": "simple-action",
+  "repo": "flokk/simple-action",
+  "description": "Minimal action styling",
+  "version": "0.1.0",
+  "keywords": [],
+  "dependencies": {
+    "ianstormtaylor/reset": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "index.css"
+  ]
+}

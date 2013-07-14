@@ -1,4 +1,4 @@
-simple-button
+simple-action
 =============
 
-Minimal button styling
+Minimal action styling
